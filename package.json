@@ -1,0 +1,14 @@
+{
+  "name": "web.phoenix.testguide",
+  "version": "1.0.0",
+  "description": "Test Guide for React and GraphQl",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.1.0"
+  }
+}
