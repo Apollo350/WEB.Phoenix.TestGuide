@@ -135,3 +135,5 @@ class ArticleHero extends React.Component {
   }
 }
 ```
+
+The parent component that hosts the components above should either know which one it wants. If it doesn't, the parent component can inspect the data, and perform the conditional branching, keeping that logic out of each individual components.
