@@ -1,4 +1,4 @@
-## Test your base component only
+# Test base component only
 The goal of your unit test is to isolate the logic within your component and focus on testing that. It's tempting to invoke and test dependencies here. Avoid doing that, because that's a job for integration tests.
 
 Specifically, don't test HOCs that wrap your component. Instead, export your base component and pass in props in your test.

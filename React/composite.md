@@ -1,9 +1,9 @@
-## Composite simple components
+# Composite simpler components
 Components that have a lot of logic are difficult to test and are difficult to reason with. If your component gets really big, break them down into smaller components, and composite them. This also potentially creates opportunities for component re-use.
 
 We'll examine some common refactoring patterns.
 
-### Pattern 1: Divergent conditional blocks in render()
+## Pattern 1: Divergent conditional blocks in render()
 When you have conditional variations where there is substantial DOM or logic in each condition, you should keep the base component, and refactor each condition into a separate component.
 
 
@@ -196,7 +196,7 @@ class MyCompositedComponent extends React.Component {
 }
 ```
 
-### Pattern 2: Sub-render() function
+## Pattern 2: Sub-render() function
 Sometimes in a component's `render()` statement, sub-render() functions are called. This is usually because there needs to be additional data manipulation or conditional code that is too awkward to put in JSX. When you find this happening, it is often a good idea to create a sub-component, instead.
 
 ```javascript
