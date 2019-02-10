@@ -68,7 +68,7 @@ We can refactor the Hero component into separate components. But we want to find
 
 In our example `wide` vs `narrow` is only a CSS style change, so that can stay a prop. A lot of the if statements are around `contentType`, so we likely want to create separate components for `Video` and `Article` to get rid of the conditional logic. And `clip` vs `thumbnail` only applies to `Video`, so if a `clip` is different enough from `thumbnail`, we should make it a separate component. For this exercise, let's go ahead and do that.
 
-We end up with three components below. Keep in mind, in this trivial example, code is being duplicated. But assuming these components will independently evolve, they are free to diverge. They way you get code re-use is by having these components share sub-components through composition.
+We end up with three components below. Keep in mind, in this trivial example, code is being duplicated. But assuming these components will independently evolve, they are free to diverge. The way you get code re-use is by having these components share sub-components through composition.
 
 ```javascript
 class VideoClipHero extends React.Component {
