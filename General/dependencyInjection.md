@@ -16,7 +16,7 @@ const tellMomILoveHer = () => {
 }
 ```
 
-`callMom()` is a function that calls my mom. I don't want to invoke it every time I run the test, because it takes a long time to execute, and is expensive (long distance call). We want to change our code to inject it as a dependency and write a test against `tellMomILoveHer()`.
+`callMom()` is a function that calls my mom. I don't want to invoke it every time I run the test, because it takes a long time to execute (I want my tests to run quickly), and is expensive (long distance call). We want to change our code to inject it as a dependency and write a test against `tellMomILoveHer()`.
 
 ```javascript
 // tellMomILoveHer.js
