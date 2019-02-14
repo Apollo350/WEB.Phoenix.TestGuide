@@ -30,5 +30,12 @@ A big barrier to writing tests is often the way components are designed. Some co
 ### Thunk
 
 ## GraphQL
+The GraphQL project is very testable! We should add tests for all new code, and for any existing code we make changes to.
 
-### Store
+### High priorities
+
+Priorities for adding tests should be against:
+
+* [store](./GraphQl/store.md) - Business logic for retrieving content.
+* [lib and helpers](./GraphQl/helpers.md) - Re-usable helpers.
+* [serializers](./GraphQl/serializers.md) - Data transformation layer.
