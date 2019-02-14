@@ -25,19 +25,28 @@ A big barrier to writing tests is often the way components are designed. Some co
 * [Snapshots](./React/snapshots.md) - Sanity check for output.
 * [Behavior Tests](./React/behavior.md) - Use Enzyme to test component behavior.
 
-### Higher order components
+### Runnable Test Examples
 
-### Utilities
+Coming soon!
 
-### Thunk
+* Components
+* Higher order components
+* Utilities
+* Thunk action creators
 
 ## GraphQL
 The GraphQL project is very testable! We should add tests for all new code, and for any existing code we make changes to.
 
 ### High priorities
 
-Priorities for adding tests should be against:
+The `tests` folder contains tests that execute GraphQL queries. This is great, and we should continue to add these tests.
+
+There are many opportunities for unit tests. Priorities for adding new tests should be against:
 
 * [store](./GraphQl/store.md) - Business logic for retrieving content.
 * [lib and helpers](./GraphQl/helpers.md) - Re-usable helpers.
 * [serializers](./GraphQl/serializers.md) - Data transformation layer.
+
+### Runnable Test Examples
+
+Coming soon!
