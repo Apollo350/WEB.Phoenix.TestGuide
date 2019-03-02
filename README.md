@@ -1,4 +1,6 @@
-# Testing Guide
+# Testing Guide **** DEPRECATED! ****
+## GO HERE:
+https://github.com/cnbc/WEB.TechLeads.Playground/tree/master/test-guide
 
 ## General
 * [Test Placement](./General/testPlacement.md) - Folder structure of tests.
